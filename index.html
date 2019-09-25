@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compclsatible" content="ie=edge">
+    <title>Socket</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="ui mini modal">
+        <div class=" content">
+            <div class="description">
+                <div class="ui raised fluid  centered blue card">
+                    <div class="content">
+                        <div class="description">
+                            <center>
+                                <h1>CHATx</h1>
+                                <div class="err-msg"></div>
+                                <div class="ui left icon input" id="for-nickname">
+                                    <input class="ui fluid" type="text" placeholder="Enter nickname....." id="nickname">
+                                    <i class="user icon"></i>
+                                </div>
+                                <br><br>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <div class="ui actions">
+                <div class="ui positive btn-user left icon button disabled centered">
+                    Set Username
+                </div>
+            </div><br>
+        </center>
+    </div>
+    <div class="ui segment appTitle">
+        <div class="ui fluid tabular">
+            <center>
+                <br>
+                <h1 id="titleniSiya">G R O U P&nbsp;&nbsp;&nbsp;C H A T S</h1>
+                <br>
+            </center>
+        </div>
+    </div>
+    <!-- <div id="horizontalLine"></div> -->
+
+        <div id="logInPage">
+            <br>
+            <div id="messages">
+                <br>
+                <div class="ui label" id="typing"></div>
+            </div>
+            <br>
+        </div>
+    <hr>
+    <div class="ui fluid action input send">
+        <input type="text" id="message" placeholder="Enter message...">
+        <div class="ui labeled button " tabindex="0">
+            <div class="ui blue basic button btnSend">
+                <i class="comment icon"></i> Send
+            </div>
+        </div>
+    </div>
+    <div id="verticalLine"></div>
+    
+    <div id="userPage">
+        <div class="ui card">
+            <div class="content">
+                <div class="header" id="title">Online User(s)</div>
+            </div>
+            <div class="content">
+                <div class="ui small feed">
+                    <div class="event">
+                        <div class="content">
+                            <div class="ui list onlineUser">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+ -->
+ <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script src="./scripts.js"></script>
+
+</html>

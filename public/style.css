@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font: 13px Helvetica, Arial;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://images.pexels.com/photos/2246471/pexels-photo-2246471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+
+#logInPage{
+    padding: 20px;
+    height:70%;
+    overflow-y: auto;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 330px;
+    padding: 0 10px;
+    font-weight: bold 1px;
+
+}
+.send{
+    position: absolute!important;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.appTitle{
+    position: sticky!important;
+    top: 0;
+    background-color: rgba(128, 229, 255,0.4)!important;
+    z-index: 5;
+}
+#typing{
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#message{
+    margin: 0;
+    margin-left: 381px;
+    max-width: 62%;
+}
+hr{
+    margin-left: 381px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.summary{
+    margin-left: 40px;
+    height: 500px;
+}
+#title{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#userPage{
+    position: absolute;
+    left: 40px;
+    top: 178px;
+    box-shadow: -1px 1px 8px 1px #888888;
+}
+.send{
+    margin-bottom: 50px!important;
+}
+.onlineUser{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#verticalLine{
+    position: absolute;
+    left: 350px;
+    top: 136px;
+    width: 2px;
+    height: 100%;   
+    box-shadow: -1px 1px 8px 1px #888888;
+}
