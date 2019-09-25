@@ -1,13 +1,30 @@
 {
-  "name": "socket-chat-example",
-  "version": "0.0.1",
-  "description": "my first socket.io app",
+  "name": "heroku-node-sample-hannah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
-    "semantic": "0.0.1",
-    "socket.io": "^1.7.3"
+    "express": "^4.17.1"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hannah-Pelino-24/heroku-node-sample-hannah.git"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "Hannah Mae Peliño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hannah-Pelino-24/heroku-node-sample-hannah/issues"
+  },
+  "homepage": "https://github.com/Hannah-Pelino-24/heroku-node-sample-hannah#readme",
+  "engines": {
+    "node": "10.5"
+}
 }
